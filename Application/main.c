@@ -1,9 +1,6 @@
-#include "ATMEGA32.h"
-#include "BIT_manipulation.h"
-#include "GPIO.h"
-#include "LED.h"
-#include "PUSH_button.h"
-#include "Timers.h"
+#include "../HAL/LED.h"
+#include "../HAL/PUSH_button.h"
+#include "../MCAL/Timers.h"
 
 int main(void)
 {
